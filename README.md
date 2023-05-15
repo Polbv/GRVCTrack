@@ -2,8 +2,8 @@
 
 This repo provides an implementation of the BYTE Tracker along with pretrained yolo model
 ## Installation:
-
-create a virtual env with python3.9 \n
+```
+create a virtual env with python3.9 
 conda env create -n GRVCTrack python=3.9
 conda activate GRVCTrack
 git clone https://github.com/Polbv/GRVCTrack
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ## MODEL ZOO
 Pretrained models must be provided in the form of a .cfg and .weights
 link to pretrained weights: https://drive.google.com/drive/folders/1tgmGgsx6nOu_I6XlDDUvsjOJjch4bcFU?usp=sharing
-
+```
 
 
 
