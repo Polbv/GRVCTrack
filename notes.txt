@@ -1,0 +1,20 @@
+GRVC Tracker.
+
+This repository is based on the ByteTrack code, It employs a trained yolo model for detection and the ByteTracker to perform the tracking algorithm.
+Capabilities:
+
+	Can use any darknet model, only needs .cfg and .weights files. 
+	Names of the classes can also be provided, though it's optional.
+	
+
+
+
+Further improvements:
+	develop GPU inference compatibility.
+	develop framework compatibility.
+	develop TensorRT compatibility.
+	Implement other trackers, i'm looking at oyu BoT-SORT
+	Improve detection model.
+	Re-train detection model
+	Train Re-ID model -> overkill??
+
